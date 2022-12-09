@@ -1,0 +1,10 @@
+.nav_wrapper {
+  background: yellow;
+  display: flex;
+}
+.nav_wrapper :not(:last-child) {
+  margin-right: 20px;
+}
+/* .header_container {
+  margin-bottom: 32px;
+} */

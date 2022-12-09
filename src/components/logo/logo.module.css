@@ -1,0 +1,20 @@
+.logo_wrapper {
+  display: flex;
+  margin-bottom: 16px;
+  height: 32px;
+  justify-content: start;
+}
+.logo_img {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+}
+.logo_text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #20496c;
+}

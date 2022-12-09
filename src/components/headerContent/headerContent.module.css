@@ -1,0 +1,10 @@
+.band_scroll {
+  overflow: hidden;
+  height: 8px;
+  width: 326px;
+  border: solid 1px #c9d3e0;
+  border-radius: 4px;
+}
+.label_band_scroll {
+  color: #4f637d;
+}

@@ -1,0 +1,43 @@
+.registre_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #134267;
+  margin-bottom: 8px;
+}
+.registre_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #4f637d;
+  margin-bottom: 32px;
+}
+.registre_text2 {
+  justify-content: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #4f637d;
+}
+.registre_link {
+  color: #32abf2;
+}
+.login_wrapper {
+  margin-bottom: 40px;
+}

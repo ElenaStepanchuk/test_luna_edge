@@ -1,0 +1,39 @@
+/* .band_scroll {
+  width: 326px;
+  border: solid 1px #c9d3e0;
+} */
+.progress_wrapper {
+  margin-bottom: 32px;
+}
+.label_band_scroll {
+  color: #4f637d;
+  padding: 0;
+  margin-bottom: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* header bar styles */
+.wrapper {
+  border: 1px solid #c9d3e0;
+  border-radius: 4px;
+  /* overflow: hidden; */
+  height: 8px;
+  width: 326px;
+}
+.container {
+  border-radius: 4px;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+.barCompleted {
+  border-radius: 4px;
+  background: #c9d3e0;
+  height: 8px;
+  width: 25%;
+  margin-top: -1px;
+  margin-left: -1px;
+}

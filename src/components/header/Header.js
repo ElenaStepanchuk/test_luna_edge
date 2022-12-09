@@ -1,21 +1,19 @@
 import { Outlet } from 'react-router-dom';
-
-import { Navigation, Logo, HeaderContent } from 'components';
+import { Navigation, Logo, Container } from 'components';
 
 import css from './header.module.css';
 
 const Header = () => {
   return (
-    <>
+    <Container>
       <NavWrapper>
         <Navigation />
       </NavWrapper>
-      <div className={css.header_wrapper}>
+      <div>
         <Logo />
-        <HeaderContent />
         <Outlet />
       </div>
-    </>
+    </Container>
   );
 };
 export default Header;

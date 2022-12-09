@@ -1,10 +1,12 @@
 .logo_wrapper {
   display: flex;
-  margin-bottom: 21px;
+  margin-bottom: 16px;
+  height: 32px;
+  justify-content: start;
 }
 .logo_img {
-  width: 28px;
-  height: 23px;
+  width: 32px;
+  height: 32px;
   margin-right: 4px;
 }
 .logo_text {

@@ -1,7 +1,8 @@
+import css from './wrapper.module.css';
 const Wrapper = ({ children }) => {
   return (
     <>
-      <div>{children}</div>
+      <div className={css.wrapper}>{children}</div>
     </>
   );
 };

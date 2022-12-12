@@ -6,7 +6,6 @@ import {
   Button,
   Title,
   Text,
-  // Modal,
   ModalStoreConnect,
 } from 'components';
 import css from './connectShopifyStore.module.css';
@@ -18,23 +17,17 @@ import ImgComponent from 'components/list/ImgComponent';
 import TitleComponent from 'components/list/TitleComponent';
 import TextComponent from 'components/list/TextComponent';
 
-// const Modal = () => {
-//   return (
-//     <div>
-//       <h1>It`s a modal</h1>
-//     </div>
-//   );
-// };
-
 const ConnectShopifyStore = () => {
   const [isShowing, setIsShowing] = useState(false);
   const progress = 2;
 
   const HandleTogleModal = () => {
     if (isShowing === false) {
+      console.log(isShowing);
       setIsShowing(true);
     } else {
       setIsShowing(false);
+      console.log('2', isShowing);
     }
   };
 
@@ -78,7 +71,9 @@ const ConnectShopifyStore = () => {
           I don’t use Shopify
         </button>
       </div>
-      {isShowing && <ModalStoreConnect />}
+      {isShowing && (
+        <ModalStoreConnect hide={isShowing} click={HandleTogleModal} />
+      )}
     </Container>
   );
 };

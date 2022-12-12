@@ -1,0 +1,40 @@
+.list {
+  padding: 16px;
+  background: #f8f9fc;
+  border-radius: 8px;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.marker {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.title_item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #134267;
+  margin-bottom: 4px;
+}
+.text_item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #4f637d;
+  margin-left: 32px;
+}

@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import ProgressBar from '@ramonak/react-progress-bar';
 import css from './progress.module.css';
 
-const Progress = () => {
-  const [completed, setCompleted] = useState(1);
+const Progress = ({ completed }) => {
+  // const [completed, setCompleted] = useState(1);
   // let completed = 0;
   // useEffect(() => {
   //   setInterval(() => setCompleted(Math.floor(Math.random() * 100) + 1), 2000);

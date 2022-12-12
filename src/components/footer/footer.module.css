@@ -1,0 +1,88 @@
+.footer_container {
+  border-top: 1px solid #c9d3e0;
+}
+@media only screen and (min-height: 751px) {
+  .footer_container {
+    position: absolute;
+    left: 0;
+    top: calc(100vh - 78px);
+  }
+}
+.container {
+  width: 390px;
+  position: relative;
+}
+.btn_prev__next {
+  background: #ffffff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  margin-top: 4px;
+}
+.btn_prev__next:nth-of-type(1) {
+  margin-right: 42px;
+  margin-left: 14px;
+}
+.btn_icon__prev__next {
+  fill: #d4d4d4;
+}
+.btn_icon__prev__next:hover {
+  fill: #80858a;
+}
+.btn_plus {
+  flex-wrap: nowrap;
+  background: #ffffff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  margin-top: 4px;
+  margin-left: 49px;
+  margin-right: 56px;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+}
+.btn_plus:hover {
+  border-radius: 50%;
+  background: #d4d4d4;
+  fill: #80858a;
+}
+.btn_plus:hover svg {
+  border-radius: 50%;
+  background: #d4d4d4;
+  fill: #80858a;
+}
+.btn_icon__plus {
+  display: flex;
+  fill: #d4d4d4;
+}
+.btn_icon__one {
+  width: 22px;
+  height: 22px;
+  margin-top: 11px;
+  margin-right: 47px;
+}
+.btn_more {
+  background: #ffffff;
+  border: none;
+
+  position: absolute;
+  top: 19px;
+  right: 26px;
+}
+.btn_btn_icon__more {
+  fill: #d4d4d4;
+  display: flex;
+  width: 26px;
+  height: 6px;
+}
+.btn_more:hover svg {
+  fill: #80858a;
+}
+.indicator {
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}

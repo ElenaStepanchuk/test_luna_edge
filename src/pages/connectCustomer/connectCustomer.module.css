@@ -1,19 +1,15 @@
-.login_text2 {
-  justify-content: center;
+.content_wrapper {
+  margin-bottom: 28px;
+}
+.link {
+  display: flex;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: -0.01em;
   color: #4f637d;
-}
-.login_link {
-  color: #32abf2;
-}
-.register_wrapper {
-  padding-bottom: 40px;
+  justify-content: center;
 }

@@ -1,0 +1,23 @@
+.content_wrapper {
+  margin-bottom: 28px;
+}
+.button {
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #4f637d;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background: #ffffff;
+}
+.button:hover {
+  /* background: #0a852a95; */
+  color: #2ee51a;
+}

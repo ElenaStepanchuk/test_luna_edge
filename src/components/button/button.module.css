@@ -1,0 +1,17 @@
+.button {
+  width: 326px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  background: #32abf2;
+  border-radius: 8px;
+  padding: 11px 0px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}

@@ -5,15 +5,17 @@ import css from './header.module.css';
 
 const Header = () => {
   return (
-    <Container>
-      <NavWrapper>
-        <Navigation />
-      </NavWrapper>
-      <div>
-        <Logo />
-        <Outlet />
-      </div>
-    </Container>
+    <header className={css.header_container}>
+      <Container>
+        <NavWrapper>
+          <Navigation />
+        </NavWrapper>
+        <div>
+          <Logo />
+          <Outlet />
+        </div>
+      </Container>
+    </header>
   );
 };
 export default Header;

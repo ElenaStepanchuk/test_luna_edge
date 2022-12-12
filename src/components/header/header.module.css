@@ -1,10 +1,12 @@
 .nav_wrapper {
-  background: yellow;
+  /* background: yellow; */
   display: flex;
 }
 .nav_wrapper :not(:last-child) {
   margin-right: 20px;
 }
-/* .header_container {
-  margin-bottom: 32px;
-} */
+.header_container {
+  border-top: 1px solid #c9d3e0;
+  padding-top: 16px;
+  margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+.text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #4f637d;
+  margin-bottom: 32px;
+}

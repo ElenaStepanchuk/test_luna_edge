@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 // import PrivateRoute from './PrivateRoute';
 // import PublicRoute from './PublicRoute';
 
-import { Wrapper, Header, Loader } from 'components';
+import { Wrapper, Header, Loader, Footer } from 'components';
 
 const Register = lazy(() => import('../pages/register/Register'));
 const Login = lazy(() => import('../pages/login/Login'));
@@ -32,6 +32,7 @@ export const App = () => {
             <Route path="ConnectCustomer" element={<ConnectCustomer />} />
           </Routes>
         </Suspense>
+        <Footer />
       </Wrapper>
     </>
   );

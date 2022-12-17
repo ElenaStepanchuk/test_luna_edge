@@ -24,7 +24,8 @@ export const App = () => {
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" index element={<Register />} />
-            <Route path="register" index element={<Register />} />
+            <Route path="chad" element={<Register />} />
+            <Route path="register" element={<Register />} />
             <Route path="login" element={<Login />} />
             <Route
               path="ConnectShopifyStore"

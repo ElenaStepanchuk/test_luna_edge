@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import css from './modal.module.css';
+import css from './modal2.module.css';
 
-const modalRoot = document.querySelector('#modal');
+const modalRoot2 = document.querySelector('#modal2');
 
-const Modal = ({ children }) => {
+const Modal2 = ({ children }) => {
   return ReactDOM.createPortal(
     <React.Fragment>
       <div className={css.modal_overlay}>
@@ -21,7 +21,7 @@ const Modal = ({ children }) => {
         </div>
       </div>
     </React.Fragment>,
-    modalRoot
+    modalRoot2
   );
 };
-export default Modal;
+export default Modal2;

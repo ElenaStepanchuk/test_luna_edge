@@ -4,18 +4,18 @@ import css from './modalStoreConnect.module.css';
 import Modal from 'components/modal/Modal';
 import Button from 'components/button/Button';
 import avatar1 from '../img/modal/avatar1.svg';
-const ModalStoreConnect = ({ hide, click }) => {
-  const [isShowing, setIsShowing] = useState(true);
+import ModalAlreadyConnect from 'components/modalAlreadyConnect/ModalAlreadyConnect';
 
-  // const HandleTogleModal = () => {
-  //   if (isShowing === true) {
-  //     setIsShowing(false);
-  //     console.log('333', isShowing);
-  //   } else {
-  //     setIsShowing(true);
-  //     console.log('444', isShowing);
-  //   }
-  // };
+const ModalStoreConnect = ({ hide, click }) => {
+  const [showing, setShowing] = useState(false);
+
+  const HandleTogleAlreadyModal = () => {
+    if (showing === false) {
+      setShowing(true);
+    } else {
+      setShowing(false);
+    }
+  };
 
   return (
     hide && (
@@ -32,11 +32,21 @@ const ModalStoreConnect = ({ hide, click }) => {
           </Button>
           <div className={css.modal_connect_btn_wrapper}>
             <p className={css.modal_text}>Wrong store?&nbsp;</p>
-            <button className={css.modal_connect_btn} type="button">
+            <button
+              className={css.modal_connect_btn}
+              type="button"
+              onClick={HandleTogleAlreadyModal}
+            >
               Connect another one
             </button>
           </div>
         </Modal>
+        {showing && (
+          <ModalAlreadyConnect
+            hiding={showing}
+            clicking={HandleTogleAlreadyModal}
+          />
+        )}
       </div>
     )
   );

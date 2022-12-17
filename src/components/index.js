@@ -13,4 +13,6 @@ export { default as GoogleButton } from './googleButton/GoogleButton';
 export { default as Title } from './title/Title';
 export { default as Text } from './text/Text';
 export { default as Modal } from './modal/Modal';
+export { default as Modal2 } from './modal2/Modal2';
 export { default as ModalStoreConnect } from './modalStoreConnect/ModalStoreConnect';
+export { default as ModalAlreadyConnect } from './modalAlreadyConnect/ModalAlreadyConnect';

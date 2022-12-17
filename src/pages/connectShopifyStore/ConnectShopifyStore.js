@@ -66,10 +66,8 @@ const ConnectShopifyStore = () => {
             </TextComponent>
           </ItemComponent>
         </ListComponent>
-        <Button>Connect store</Button>
-        <button className={css.button} onClick={HandleTogleModal} type="button">
-          I don’t use Shopify
-        </button>
+        <Button click={HandleTogleModal}>Connect store</Button>
+        <button className={css.button}>I don’t use Shopify</button>
       </div>
       {isShowing && (
         <ModalStoreConnect hide={isShowing} click={HandleTogleModal} />
